@@ -59,7 +59,7 @@ echo $selection;
 		 </ol>
 			<h2>Our Products</h2>			
 		 <div class="col-md-9 product-model-sec">
-					 <a href="single.php"><div class="product-grid">
+					<a href="single.php"><div class="product-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
 							<img src="images/p1.jpg" class="img-responsive" alt="">
@@ -84,8 +84,7 @@ echo $selection;
 							
 						</div>
 					</div>	
-					
-					 <a href="single.php"><div class="product-grid">
+					<a href="single.php"><div class="product-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
 							<img src="images/p2.jpg" class="img-responsive" alt=""/>
@@ -109,7 +108,6 @@ echo $selection;
 							</div>						
 						</div>
 					</div>
-					
 					<a href="single.php"><div class="product-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
@@ -134,7 +132,6 @@ echo $selection;
 							</div>						
 						</div>
 					</div>
-					
 					<a href="single.php"><div class="product-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
@@ -159,7 +156,6 @@ echo $selection;
 							</div>						
 						</div>
 					</div>
-					
 					<a href="single.php"><div class="product-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
@@ -184,7 +180,6 @@ echo $selection;
 							</div>						
 						</div>
 					</div>
-					
 					<a href="single.php"><div class="product-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
