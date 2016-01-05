@@ -23,7 +23,9 @@ function recordSetToJson($mysqlresult) {
 				</div>
 			 <!---->		 
 			 <div class="top-nav">
-				<ul class="memenu skyblue"><li class="showhide" style="overflow: hidden; display: none;"><span class="title">MENU</span><span class="icon1"></span><span class="icon2"></span></li><li class="active"><a href="index.php">Home</a></li>
+				<ul class="memenu skyblue"><li class="showhide" style="overflow: hidden; display: none;">
+                                        <span class="title">MENU</span><span class="icon1"></span>
+                                        <span class="icon2"></span></li><li class="active"><a href="index.php">Home</a></li>
 					<li class="grid"><a href="#">Products</a>
 						<div class="mepanel">
 							<div class="row">
@@ -32,10 +34,8 @@ function recordSetToJson($mysqlresult) {
 									<ul>
                                                                             
                                                                             <?php 
-                                                                            $arr_length = count($rows1);
-                                                                          
-                                                                           foreach($newRow as $key => $value) {?>
-                                                                            <li><a href="product.php"><?php print $value;?></a></li>
+                                                                          foreach($newRow as $key => $value) {?>
+                                                                            <li><a href="product.php?category=<?php print $value ?>"><?php print $value;?></a></li>
                                                                               <?php }?>
 									</ul>
                                                                         
