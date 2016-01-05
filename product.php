@@ -42,7 +42,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body> 
 <!--header-->
-<?php include './header.php';?>
+<?php include './header.php';
+
+$selection=$_GET['category'];
+echo $selection;
+
+?>
+
+
 <!--header//-->
 <div class="product-model">	 
 	 <div class="container">
