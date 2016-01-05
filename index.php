@@ -44,15 +44,6 @@ include './DbCon/connection.php';
 include './header.php';
 
 
-
-
-
-
-
-
-
-
-
 ?>
 <!---->	
 <div class="slider">
