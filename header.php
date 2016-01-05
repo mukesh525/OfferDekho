@@ -1,5 +1,5 @@
 <?php
-//
+///
 include './DbCon/connection.php';
 $sql = "SELECT * FROM  `category`";
 $newRow = recordSetToJson(mysqli_query($conn, $sql));
