@@ -45,7 +45,7 @@ include './header.php';
 
 
 ?>
-<!---->	
+<!--////-->	
 <div class="slider">
 	  <div class="callbacks_container">
 	     <ul class="rslides" id="slider">
